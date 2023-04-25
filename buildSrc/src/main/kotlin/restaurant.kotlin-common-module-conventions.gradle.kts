@@ -2,7 +2,7 @@ import org.gradle.api.tasks.testing.Test
 import org.gradle.kotlin.dsl.*
 
 plugins {
-    kotlin("jvm")
+    id("org.jetbrains.kotlin.jvm")
 
     java
     jacoco
