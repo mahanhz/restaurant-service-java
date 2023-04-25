@@ -11,7 +11,7 @@ import org.testcontainers.utility.DockerImageName;
 @Testcontainers
 class DatabaseTest {
 
-    static DockerImageName dockerImageName = DockerImageName.parse("percona:5.7").asCompatibleSubstituteFor("mysql");
+    static DockerImageName dockerImageName = DockerImageName.parse("mysql:8.0");
     static MySQLContainer<?> container = new MySQLContainer<>(dockerImageName);
 
     static {
