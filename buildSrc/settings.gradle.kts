@@ -7,10 +7,8 @@ pluginManagement {
     plugins {
         id("org.springframework.boot") version springBootVersion
         id("io.spring.dependency-management") version springDependencyManagementVersion
-        // id("com.gorylenko.gradle-git-properties") version gitPropertiesVersion
+        id("com.gorylenko.gradle-git-properties") version gitPropertiesVersion
         kotlin("jvm") version kotlinVersion
-        kotlin("plugin.spring") version kotlinVersion
-        kotlin("plugin.allopen") version kotlinVersion
     }
 
     repositories {

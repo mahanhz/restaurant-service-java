@@ -3,8 +3,7 @@ import org.gradle.kotlin.dsl.*
 
 plugins {
     kotlin("jvm")
-    kotlin("plugin.spring")
-    kotlin("plugin.allopen")
+
     java
     jacoco
 }

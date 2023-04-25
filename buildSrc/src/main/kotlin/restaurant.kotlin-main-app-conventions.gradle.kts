@@ -4,7 +4,7 @@ plugins {
 	id("org.springframework.boot")
 	id("io.spring.dependency-management")
 	id("restaurant.kotlin-common-module-conventions")
-	// id("com.gorylenko.gradle-git-properties")
+	id("com.gorylenko.gradle-git-properties")
 }
 
 val versions = Versions.fromProperties(project.rootDir)

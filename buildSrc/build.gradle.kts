@@ -1,10 +1,8 @@
 plugins {
     id("org.springframework.boot") apply false
     id("io.spring.dependency-management")
-    // id("com.gorylenko.gradle-git-properties")
+    id("com.gorylenko.gradle-git-properties")
     kotlin("jvm")
-    kotlin("plugin.spring")
-    kotlin("plugin.allopen")
 
     `kotlin-dsl`
 }
@@ -33,5 +31,5 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-allopen")
 
     implementation("org.springframework.boot:spring-boot-gradle-plugin:$springBootVersion")
-    // implementation("com.gorylenko.gradle-git-properties:gradle-git-properties:$gitPropertiesVersion")
+    implementation("com.gorylenko.gradle-git-properties:gradle-git-properties:$gitPropertiesVersion")
 }
