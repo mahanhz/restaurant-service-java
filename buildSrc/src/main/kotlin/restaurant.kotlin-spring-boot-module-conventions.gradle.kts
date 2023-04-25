@@ -16,6 +16,7 @@ dependencies {
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("jakarta.enterprise:jakarta.enterprise.cdi-api:${versions["cdiVersion"]}")
     implementation("org.apache.commons:commons-lang3:${versions["apacheCommonsLangVerion"]}")
+    implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.1.0")
 
     compileOnly("org.springframework.boot:spring-boot-devtools")
 
