@@ -33,6 +33,3 @@ tasks.withType<Test> {
 java {
     modularity.inferModulePath.set(true)
 }
-val compileKotlin: org.jetbrains.kotlin.gradle.tasks.KotlinCompile by tasks
-val compileJava: JavaCompile by tasks
-compileKotlin.destinationDirectory.set(compileJava.destinationDirectory)

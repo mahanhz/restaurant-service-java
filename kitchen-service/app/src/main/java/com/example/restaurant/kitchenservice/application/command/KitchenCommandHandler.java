@@ -15,7 +15,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 import java.util.Collections;
-import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -31,7 +30,7 @@ public class KitchenCommandHandler {
         this.orderCommandHandler = orderCommandHandler;
     }
 
-    // Order order = null
+    // Order order = null;
 
     @Transactional
     public ChefApi createChef(String chefName) {
