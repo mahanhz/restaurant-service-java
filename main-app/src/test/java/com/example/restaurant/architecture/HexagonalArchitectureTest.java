@@ -9,7 +9,7 @@ import com.tngtech.archunit.lang.ArchRule;
 import static com.tngtech.archunit.lang.syntax.ArchRuleDefinition.noClasses;
 
 
-@AnalyzeClasses(packagesOf = {KitchenApplication.class})
+@AnalyzeClasses(packagesOf = {KitchenApplication.class, OrderApplication.class})
 class HexagonalArchitectureTest {
 
     private static final String PACKAGE_APPLICATION = "..application..";
